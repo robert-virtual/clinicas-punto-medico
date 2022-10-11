@@ -44,6 +44,7 @@
 <main>
   <h1>Clinicas Punto Medico</h1>
   <p>Danli, El Paraiso, Honduras</p>
+  <p>Telefono: 2763-3228</p>
   <div bind:this={mapElement} class="mapa" />
   <div class="row m-2">
     <button on:click={() => goto({ position: lngLat })}>Mi ubicacion</button>
